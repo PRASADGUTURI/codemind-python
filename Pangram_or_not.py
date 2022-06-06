@@ -7,8 +7,10 @@ def ispangram(str):
             return False
   
     return True
+      
+
 string = input()
 if(ispangram(string) == True):
-    print("True")
+    print(True)
 else:
-    print("False")
+    print(False)
